@@ -161,3 +161,22 @@
     display: flex;
     justify-content: end;
 }
+
+@media screen and (max-width: 1200px) {
+    .posts__promoted, .posts__mostviewed {
+        flex-direction: column;
+    }
+
+    .posts__latest {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .posts {
+        max-width: 100%;
+    }
+    .posts__latest {
+        grid-template-columns: 1fr;
+    }
+}
