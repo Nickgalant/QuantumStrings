@@ -105,6 +105,39 @@ span.material-symbols-outlined {
     cursor: pointer;
 }
 
+#post {
+    padding: 100px;
+    background-color: #122A59;
+    color: #fff;
+}
+
+#post h1 {
+    color: #fff;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.post__button {
+    border: none;
+    background-color: #051026;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post__button:hover {
+    opacity: 0.8;
+}
+
 @media screen and (min-width: 1200px) {
     #header {
         flex-direction: row;
@@ -136,5 +169,8 @@ span.material-symbols-outlined {
         display: flex;
         flex-direction: row;
         margin-right: 20px;
+    }
+    textarea {
+        width: 100%;
     }
 }
