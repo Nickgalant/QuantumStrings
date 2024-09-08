@@ -116,10 +116,12 @@ span.material-symbols-outlined {
 }
 
 form {
+    height: 600px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: start;
+    justify-content: center;
     gap: 10px;
 }
 
