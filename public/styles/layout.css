@@ -106,7 +106,7 @@ span.material-symbols-outlined {
 }
 
 #post {
-    padding: 100px;
+    padding: 10px;
     background-color: #122A59;
     color: #fff;
 }
@@ -170,6 +170,11 @@ form {
         flex-direction: row;
         margin-right: 20px;
     }
+
+    #post {
+        padding: 100px;
+    }
+
     textarea {
         width: 100%;
     }
