@@ -18,7 +18,24 @@
                 </div>
                 <img src="/images/viagem no tempo.png" alt="" class="posts__promoted-img">
             </div>
-            <div class="posts__latest">
+            <div id="artigos" class="posts__latest">
+            <% if(artigos && artigos.length > 0){ %>
+                <% artigos.forEach((artigo) => { %>
+                    <div class="posts__latest-post">
+                        <img src="/images/carros e robos.png" class="post__img" alt="">
+                        <div class="post__desc">
+                            <h4><%= artigo.titulo %></h4>
+                            <p>
+                                <%= artigo.texto %>
+                            </p>
+                            <div class="post__desc-footer">
+                                <p>Abril 20 2024 - 132 Visualizações</p>
+                                <p><a href="#">Leia Mais</a></p>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            <% } %>
                 <div class="posts__latest-post">
                     <img src="/images/carros e robos.png" class="post__img" alt="">
                     <div class="post__desc">

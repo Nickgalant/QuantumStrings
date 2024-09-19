@@ -57,6 +57,7 @@
 
 .posts__latest-post {
     width: 300px;
+    height: 395px;
     border: 1px solid #E2E2E2;
     border-radius: 0 0 5px 5px;
     box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
@@ -74,6 +75,8 @@
 
 .post__desc p {
     font-size: 14;
+    height: 120px;
+    overflow: hidden;
 }
 
 .post__desc h4 {
@@ -178,5 +181,9 @@
     }
     .posts__latest {
         grid-template-columns: 1fr;
+    }
+
+    .container__more {
+        justify-content: center;
     }
 }
