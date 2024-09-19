@@ -23,7 +23,7 @@ app.post("/submit", (req, res) => {
     };
     
     // Adiciona o novo artigo ao array
-    artigos.push(novoArtigo);
+    artigos.unshift(novoArtigo);
     
     res.render("index.ejs", { artigos });
 });
